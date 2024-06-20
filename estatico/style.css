@@ -1,0 +1,27 @@
+.container{
+    margin: 20px;
+    height: 200px;
+    display: flex;
+    border: solid #002;
+    padding: 20px;
+    width: 400px;
+}
+.box-red{
+    background-color: red;
+}
+.box-blue{
+    background-color: blue;
+    position: relative;
+    top: 50px;
+    right: 133px;
+}
+.box-green{
+    background-color: green;
+    position: relative;
+    top: 100px;
+    right: 266px;
+}
+.box-red, .box-blue, .box-green{
+    width: 200px;
+    height: 150px;
+}

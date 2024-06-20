@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+.container{
+    border: 5px solid #002;
+    background-color: rgb(121, 179, 230);
+    display: grid;
+    /* grid-template-columns: 200px 400px 100px; */
+    grid-template-rows: 200px 400px 100px;
+    grid-auto-rows: 200px; 
+}
+.item{
+    border: 5px solid #da0;
+    font-size: 4rem;
+}
