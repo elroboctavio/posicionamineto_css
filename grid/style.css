@@ -10,11 +10,24 @@ html{
     border: 5px solid #002;
     background-color: rgb(121, 179, 230);
     display: grid;
-    /* grid-template-columns: 200px 400px 100px; */
-    grid-template-rows: 200px 400px 100px;
-    grid-auto-rows: 200px; 
+    grid-template-columns: 150px 100px 150px;
+    grid-template-rows: 75px 75px 75px;
+    /* grid-auto-rows: 200px;  */
+    place-content: center;/* para centrar elementos es con este */
 }
 .item{
     border: 5px solid #da0;
     font-size: 4rem;
+}
+.item-1{
+    border:5px solid red;
+    background-color: rgba(255, 0, 0, 0.468);
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.item-2{
+    border:5px solid blue;
+    background-color: rgba(0, 0, 255, 0.482);
+    grid-row: 2/4;
 }
